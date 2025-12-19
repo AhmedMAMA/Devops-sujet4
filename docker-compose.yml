@@ -1,0 +1,8 @@
+version: '3.9'
+services:
+  cat-dog-api:
+    build: .
+    container_name: cat-dog-api
+    ports:
+      - "5000:5000"
+    restart: unless-stopped
