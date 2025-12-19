@@ -114,3 +114,8 @@ minikube delete
 docker rmi -f docker_cat-dog-api:latest
 docker system prune -a
 ```
+
+## Difficulté : 
+Déploiement des load balanceur pour la gestion de la scalabilité des requêtes en direction de web service.
+
+## Projet réalisé pour le Learning XP : Module DevOps
